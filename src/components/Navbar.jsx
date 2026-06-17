@@ -3,7 +3,11 @@ export default function Navbar() {
     <header className="bg-white shadow-sm sticky top-0 z-50 border-b">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="/">
-          <img src="/logo.png" className="h-10 md:h-60 w-auto" />
+          <img
+            src="/logo.png"
+            alt="Fedra Lubricantes"
+            className="h-20 md:h-24 w-auto"
+          />
         </a>
 
         <nav className="flex gap-4 text-sm md:gap-8 md:text-base">
@@ -16,13 +20,6 @@ export default function Navbar() {
             className="hover:text-blue-600 transition-colors"
           >
             Categorías
-          </a>
-
-          <a
-            href="/#contacto"
-            className="hover:text-blue-600 transition-colors"
-          >
-            Contacto
           </a>
         </nav>
       </div>
